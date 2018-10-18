@@ -9,6 +9,7 @@ import store from './store';
 
 import NavBar from './components/NavBar';
 import AsyncComponent from './components/AsyncComponent';
+import Menu from './components/Menu';
 
 const Home = AsyncComponent()(() => import('./scenes/Home'));
 const Examples = AsyncComponent()(() => import('./scenes/Examples'));
@@ -18,6 +19,7 @@ render(
         <Router>
             <div>
                 <NavBar />
+                <Menu />
                 <div className='container'>
                     <Route exact path="/" component={Home} />
                     <Route path="/examples" title="Examples" component={Examples} />
