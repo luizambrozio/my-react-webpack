@@ -1,0 +1,24 @@
+.nav {
+    display: flex;
+}
+
+.item {
+    margin-right: 4rem;
+    flex: 1 1 auto;
+}
+
+.item:last-child {
+    margin-right: 0;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.title{
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}

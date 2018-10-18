@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    "transform-class-properties",
+    "syntax-dynamic-import"
+  ],
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "> 5%",
+            "last 2 versions"
+          ]
+        },
+        "modules": false,
+        "useBuiltIns": true,
+        "debug": false
+      }
+    ],
+    "stage-3",
+    "react"
+  ]
+}
